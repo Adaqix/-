@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	background-color: ghostwhite
+}
+
+a{
+	text-decoration: none;background-color: honeydew;
+}
+
+.containter{
+	width: 80%;
+	height: 50px;
+	margin: 60px auto;
+	background-color: honeydew;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.one{
+	
+	color: dodgerblue;
+	font-size: 30px;
+}
+
+a:link{
+	color: dodgerblue;
+}
+
+a:visited{
+	color: dodgerblue;
+}
+
+a:hover{
+	color: red;
+	font-size: 32px;
+	transition-delay: 20ms;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
